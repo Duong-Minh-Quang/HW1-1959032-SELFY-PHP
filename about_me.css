@@ -1,0 +1,61 @@
+body {
+  margin: 0px;
+  background-color: #192e75;
+}
+
+/* banner */
+.quote h1 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 80px;
+}
+div#banner {
+    background-image: url("images/aboutme_banner.JPG");
+    height: 50vh;
+    padding: 10vh;
+    color: red !important;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+.quote {
+  margin-top: 18vh;
+  width: 50%;
+}
+
+/* about-me */
+.about_me_title, .hobbies_title {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Merriweather', serif;
+}
+.about_me div {
+  display: flex;
+  overflow: hidden;
+  padding: 60px;
+}
+.info-1-2 {
+  grid-template-columns: 1fr 2fr;
+}
+.info-2-1 {
+  grid-template-columns: 2fr 1fr;
+}
+.info-1-2, .info-2-1 {
+   font-family: 'Yanone Kaffeesatz', sans-serif;
+   font-size: 50px;
+   grid-gap: 30px;
+   color: white;
+ }
+.about_me div img {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+.about_me .hobbies .col-3 {
+  display: grid;
+  text-align: center;
+  font-family: 'Bodoni Moda', serif;
+}
